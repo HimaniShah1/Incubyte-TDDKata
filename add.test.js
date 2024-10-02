@@ -19,3 +19,11 @@ test("multiple comma seperated numbers should return it's sum", () => {
 test("new line between numbers should return it's sum", () => {
     expect(add("1\n2,3")).toBe(6);
 })
+
+test("should support custom delimiters", () => {
+    expect(add("//;\n1;2")).toBe(3);
+})
+
+test("negative numbers should throw an exception", () => {
+    expect(() => add("-10,1,3,-4")).toThrow("Negative numbers not allowed: -10, -4");
+})
