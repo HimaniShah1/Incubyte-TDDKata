@@ -18,7 +18,10 @@ function add(number) {
             const negativeNumbers = numbers.filter(n => Number(n) < 0).join(", ");
             throw new Error(`Negative numbers not allowed: ${negativeNumbers}`);
         }
-        return acc + num;
+        else if(num <= 1000){
+            return acc + num;
+        }
+        return acc;
     }, 0);
 
     return sum;
