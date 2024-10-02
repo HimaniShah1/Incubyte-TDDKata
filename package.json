@@ -1,0 +1,23 @@
+{
+  "name": "Incubyte-TDDKata",
+  "version": "1.0.0",
+  "description": "String Calculator Kata",
+  "main": "add.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimaniShah1/Incubyte-TDDKata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HimaniShah1/Incubyte-TDDKata/issues"
+  },
+  "homepage": "https://github.com/HimaniShah1/Incubyte-TDDKata#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
