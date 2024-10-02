@@ -15,3 +15,7 @@ test("two comma seperated numbers should return it's sum", () => {
 test("multiple comma seperated numbers should return it's sum", () => {
     expect(add("1,5,9,95")).toBe(110);
 })
+
+test("new line between numbers should return it's sum", () => {
+    expect(add("1\n2,3")).toBe(6);
+})
